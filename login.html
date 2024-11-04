@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up - Kintsugi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="job-matching.html">Job Matching</a></li>
+                <li><a href="emotional-counseling.html">Counseling</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="employer-services.html">For Employers</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Login or Sign Up</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <div class="login-form">
+                <h2>Login</h2>
+                <p>If you already have an account, please log in below:</p>
+                <form action="index.html" method="post">
+                    <label for="login-username">Username:</label>
+                    <input type="text" id="login-username" name="username" required><br>
+
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="password" required><br>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="signup-form">
+                <h2>Sign Up</h2>
+                <p>Don't have an account? Create one below:</p>
+                <form action="index.html" method="post">
+                    <label for="signup-username">Username:</label>
+                    <input type="text" id="signup-username" name="username" required><br>
+
+                    <label for="signup-email">Email:</label>
+                    <input type="email" id="signup-email" name="email" required><br>
+
+                    <label for="signup-password">Password:</label>
+                    <input type="password" id="signup-password" name="password" required><br>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kintsugi</p>
+    </footer>
+</body>
+</html>
